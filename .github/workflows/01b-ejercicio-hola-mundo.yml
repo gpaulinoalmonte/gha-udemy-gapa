@@ -1,7 +1,9 @@
 name: 01b-holamundo
 on:
   workflow_dispatch:
-    push:
+  push:
+    branches:
+      - main
 jobs:
   hola-mundo:
     runs-on: ubuntu-latest
