@@ -1,9 +1,10 @@
 name: 01a-holamundo
 on:
   workflow_dispatch:
+    push:
 jobs:
   hola-mundo:
     runs-on: ubuntu-latest
     steps:
       - name: Hola mundo
-        run: echo "Hola Mundo!"
+        run: echo "Hola George!"
