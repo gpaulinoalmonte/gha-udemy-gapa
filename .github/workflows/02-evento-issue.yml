@@ -1,7 +1,9 @@
-name: 01a-holamundo
+name: 02-evento-issue
 on:
   workflow_dispatch:
   push:
+    paths-ignore:
+      - "*.md"
   issues:
     types:
       - opened
