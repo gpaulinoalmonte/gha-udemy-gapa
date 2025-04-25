@@ -1,0 +1,13 @@
+name: 01a-holamundo
+on:
+  workflow_dispatch:
+  push:
+  issues:
+    types:
+      - opened
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hola mundo
+        run: echo "Hola George!"
